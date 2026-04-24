@@ -10,7 +10,6 @@ String generatePassword(int length) {
 
   String password = '';
 
-  // نضمن وجود كل نوع
   password += lower[random.nextInt(lower.length)];
   password += upper[random.nextInt(upper.length)];
   password += digits[random.nextInt(digits.length)];
